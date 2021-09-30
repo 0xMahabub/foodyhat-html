@@ -1,0 +1,1 @@
+# FoodyHat - an eCommerce HTML5 template
