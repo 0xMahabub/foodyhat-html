@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*=== Import Google Fonts ===*/
+body {
+  font-family: 'Mukta', sans-serif;
+}
+
+/*=== Custom Classes ===*/
+.text-theme {
+  color: #FF7E00;
+}
+
+.bg-theme {
+  background-color: #FF7E00;
+}
+
+.bg-theme-2 {
+  background-color: #12B738;
+}
+
+.theme-container {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1500px) {
+  .theme-container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1499.9px) {
+  .theme-container {
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1399.9px) {
+  .theme-container {
+    max-width: 1176px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1199.9px) {
+  .theme-container {
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 999.9px) {
+  .theme-container {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 599.9px) {
+  .theme-container {
+    max-width: 100%;
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
